@@ -12,6 +12,7 @@ Built as a quick experiment to visualize motion in the terminal.
 The projectile is simulated using classical motion equations:
 
 x = ux * t
+
 y = uy * t - (1/2)gt²
 
 The program updates the grid frame by frame to animate the trajectory.
@@ -87,11 +88,8 @@ project/
 
 Possible upgrades:
 
-* Stop simulation when projectile hits ground
 * Adjustable gravity
-* Axis rendering
-* Trails behind projectile
-* Pygame visualization
+* Pygame visualization 
 * Variable grid resolution
 * Real coordinate scaling
 
